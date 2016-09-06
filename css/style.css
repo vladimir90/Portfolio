@@ -402,6 +402,7 @@ div{
 #section3 p{
 	font-size: 16px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	line-height: 30px;
 	text-align: justify;
 }
@@ -409,14 +410,21 @@ div{
 #section3 a{
 	text-decoration: none;
 	color:#FF5B39;
+	display: block;
+	width:50px;
+	margin:0 auto;
+	
+
 }
-#section3 a:hover{
-	text-decoration: none;
-	border-bottom: 1px solid #FF5B39;
+#section3 h3{
+	text-align: center;
+	
 }
 
+#section3 a img{
+	width:50px;
 
-
+}
 
 
 
@@ -427,12 +435,13 @@ div{
 
 #section4{
 	background-color: #31454C;
-	padding-top: 50px;
+	
 	padding-bottom: 50px;
 }
 #section4 h1{
 	color:#fff;
 	font-family: "Lato Light",sans-serif;
+	padding-top: 40px;
 }
 #section4 h4, #section4 p{
 	color:#fff;
@@ -462,6 +471,13 @@ div{
 	color:#FF5B39;
 }
 
+.white img{
+	width:50px;
+}
+.white{
+	width:50px;
+	margin:0 auto;
+}
 
 
 
@@ -474,11 +490,12 @@ div{
 }
 #section5 h1{
 	
-	
+	color:#31454C;
 	text-align: center;
 	font-family: "Lato Light",sans-serif;
 }
 #section5 h3{
+	color:#31454C;
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -562,12 +579,12 @@ div{
 }
 #section6 p{
 	color:#fff;
-	font-size:16px;
+	font-size:18px;
 }
 #section6 a{
 	text-decoration: none;
 	color:#fff;
-	font-size: 16px;
+	font-size: 18px;
 
 
 }
@@ -596,8 +613,8 @@ i{
 	-webkit-transition:0.3s ease-in-out;
 }
 #section6 iframe{
-	margin-top: 50px;
-	width:50%;
+	
+	width:100%;
 	height:300px;
 
 }
@@ -610,4 +627,5 @@ i{
 }
 .copy{
 	padding-top: 20px;
+	padding-bottom: 20px;
 }

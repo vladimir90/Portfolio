@@ -1,5 +1,5 @@
 
-
+//easy slide
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -15,3 +15,8 @@ $(function() {
     }
   });
 });
+
+
+
+
+
