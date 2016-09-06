@@ -29,6 +29,16 @@ div{
 
 /*===========animations===========*/
 
+
+/*=======rotation======*/
+@keyframes rotation{
+	100%{transform:rotate(360deg);}
+	
+
+}
+@-webkit-@keygrames rotation{
+	100%{transform:rotate(360deg);}
+}
 /*=========pulse===========*/
 @keyframes pulse{
 	0%{transform: scale(1);}
@@ -377,10 +387,10 @@ div{
 	width:40px;
 	
 	margin:0 auto;
+	animation:1.5s pulse ease-in infinite;
+	-webkit-animation:1.5s pulse ease-in infinite;
 }
-.s2-arrow img:hover{
-	animation:1s pulse ease-in infinite;
-}
+
 
 
 
@@ -500,9 +510,21 @@ div{
 	padding-bottom: 50px;
 }
 #section5 h4{
-	color:#FF5B39;
+	color:#31454C;
+	border-bottom:1px solid #D8D8D8;
 }
+.circle{
+	width:50px;
+	margin:0 auto;
 
+}
+.circleSpinning{
+	animation: 3s rotation linear infinite;
+	-webkite-animation:animation: 3s rotation linear infinite;;
+}
+.circle img{
+	width:50px;
+}
 /*===========animation==============*/
 .hvr-curl-top-left {
   display: inline-block;
