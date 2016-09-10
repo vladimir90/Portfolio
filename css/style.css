@@ -258,10 +258,6 @@ div{
 /*====================================================
 =======================SECTION 1======================
 =====================================================*/
-#section1{
-	
-
-}
 
 #section1 .navbar-default{
 	background-color: #FF5B39;
@@ -309,7 +305,20 @@ div{
 /*=====================================================
 ========================SECTION 2======================
 ======================================================*/
-
+.up{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  position:fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top:85%;
+  left:90%;
+ 
+}
+.up img{
+  width:25px;
+}
 
 #section2{
 	padding-top: 50px;
@@ -488,7 +497,53 @@ div{
 	width:50px;
 	margin:0 auto;
 }
+.white-out{
+  width:50px;
+  margin:0 auto;
 
+}
+.white-out button{
+  margin-top: 50px;
+  border:none;
+  padding:5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: #31454C;
+}
+.white-out img{
+  width:20px;
+  margin:0 auto;
+}
+
+
+
+/*================SECTION 4b=================*/
+
+#section4b{
+  
+  padding-bottom: 50px;
+  background-color: #31454C;
+}
+
+#section4b h3{
+  color:#FF5B39;
+}
+#section4b h4{
+  color:#fff;
+}
+#section4b p{
+  color:#fff;
+}
+#section4b h1{
+  color:#fff;
+  font-family: "Lato Light",sans-serif;
+  padding-top: 40px;
+}
+#section4b span{
+  color:#FF5B39;;
+}
+#section4b i{
+  padding-bottom: 50px;
+}
 
 
 /*====================================================

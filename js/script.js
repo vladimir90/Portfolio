@@ -19,4 +19,19 @@ $(function() {
 
 
 
+$(document).ready(function(){
+$('#section4b').hide();
+    $('.out').click(function(){
+
+    $('#section4b').slideToggle('slow');
+
+  });
+
+
+
+
+});
+
+
+
 
