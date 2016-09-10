@@ -520,6 +520,7 @@ div{
   
   padding-bottom: 50px;
   background-color: #31454C;
+
 }
 
 #section4b h3{
@@ -530,6 +531,9 @@ div{
 }
 #section4b p{
   color:#fff;
+  font-size: 16px;
+  
+  line-height: 30px;
 }
 #section4b h1{
   color:#fff;
@@ -540,6 +544,7 @@ div{
   color:#FF5B39;;
 }
 #section4b i{
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -697,10 +702,12 @@ i{
 	padding-top: 50px;
 
 }
-#section6 h6{
-	color:#fff;
+
+.copy h6{
+  color:#fff;
 }
 .copy{
+  background-color:#31454C;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
