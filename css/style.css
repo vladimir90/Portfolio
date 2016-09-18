@@ -3,7 +3,11 @@
 body{
 	padding:0;
 	margin:0;
-
+  background: url('../img/wall.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -260,11 +264,12 @@ div{
 =====================================================*/
 
 #section1 .navbar-default{
-	background-color: #FF5B39;
+	background-color:#1d1d1d;
 	border:none;
 	padding: 0;
 	margin:0;
 	border-radius: 0;
+
 
 
 
@@ -288,7 +293,7 @@ div{
 	font-family: 'Lato Light',sans-serif;
 }
 #section1 ul li a:hover{
-	background-color:#FF8168;
+	background-color:#FF5B39;
 	color: #fff;
 	transition:0.4s linear;
 	-webkit-transition:0.4s linear;
@@ -323,7 +328,7 @@ div{
 #section2{
 	padding-top: 50px;
 	padding-bottom: 20px;
-	background-color: #FF5B39;
+	
 	text-align: center;
 }
 .s2-img{
@@ -354,7 +359,7 @@ div{
 .hvr-ripple-out:before {
   content: '';
   position: absolute;
-  border: #FF8168 solid 4px;
+  border: #FF5B39 solid 2px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -411,7 +416,7 @@ div{
 #section3{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	
+	background-color: #fff;
 }
 #section3 h1{
 	color:#FF5B39;
@@ -419,10 +424,10 @@ div{
 	font-family: "Lato Light",sans-serif;
 }
 #section3 p{
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	line-height: 30px;
+	line-height: 35px;
 	text-align: justify;
 }
 
@@ -451,7 +456,7 @@ div{
 =================================================*/
 
 #section4{
-	background-color: #31454C;
+	
 	
 	padding-bottom: 50px;
 }
@@ -505,7 +510,7 @@ div{
   border:none;
   padding:5px 10px 5px 10px;
   border-radius: 5px;
-  background-color: #31454C;
+  background-color: transparent;
 }
 .white-out img{
   width:20px;
@@ -519,7 +524,7 @@ div{
 #section4b{
   
   padding-bottom: 50px;
-  background-color: #31454C;
+  
 
 }
 
@@ -555,6 +560,7 @@ div{
 #section5{
 	padding-top: 50px;
 	padding-bottom: 100px;
+  background-color: #fff;
 }
 #section5 h1{
 	
@@ -565,7 +571,8 @@ div{
 #section5 h3{
 	color:#31454C;
 	text-align: center;
-	padding-bottom: 50px;
+  padding-bottom: 50px;
+	
 }
 #section5 h4{
   padding-top: 20px;
@@ -573,6 +580,7 @@ div{
 	border-bottom:1px solid #D8D8D8;
 }
 .circle{
+
 	width:50px;
 	margin:0 auto;
 
@@ -595,6 +603,7 @@ div{
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  padding-bottom: 25px;
 }
 .hvr-curl-top-left:before {
   pointer-events: none;
@@ -650,7 +659,7 @@ div{
 ===================================================*/
 #section6{
 	padding-top: 50px;
-	background-color: #FF5B39;
+	background-color: #1d1d1d;
 	padding-bottom: 20px;
 }
 #section6 h1{
@@ -671,25 +680,29 @@ div{
 }
 #section6 a:hover{
 	text-decoration: none;
+  color:#FF5B39;
 }
+
 i{
+  margin-left: 5px;
 	color:#fff;
 }
 .fa-facebook-square, .fa-linkedin-square, .fa-google-plus-square{
-	color:#FF8168;
+	
+  color:#fff;
 }
 .fa-facebook-square:hover{
-	color:#fff;
+	color:#FF5B39;
 	transition:0.3s ease-in-out;
 	-webkit-transition:0.3s ease-in-out;
 }
 .fa-linkedin-square:hover{
-	color:#fff;
+	color:#FF5B39;
 	transition:0.3s ease-in-out;
 	-webkit-transition:0.3s ease-in-out;
 }
 .fa-google-plus-square:hover{
-	color:#fff;
+	color:#FF5B39;
 	transition:0.3s ease-in-out;
 	-webkit-transition:0.3s ease-in-out;
 }
@@ -708,7 +721,8 @@ i{
   color:#fff;
 }
 .copy{
-  background-color:#31454C;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  background-color: #FF5B39;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
