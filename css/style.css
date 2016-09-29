@@ -339,6 +339,7 @@ div{
 	margin:0 auto;
 }
 .s2-img img{
+  padding: 5px;
 	width:120px;
 	border-radius: 200px;
 }
