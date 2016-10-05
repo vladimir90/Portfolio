@@ -613,19 +613,12 @@ div{
 	color:#31454C;
 	border-bottom:1px solid #D8D8D8;
 }
-.circle{
+#section5 a{
+  margin-bottom: 50px;
+}
 
-	width:50px;
-	margin:0 auto;
 
-}
-.circleSpinning{
-	animation: 3s rotation linear infinite;
-	-webkite-animation:animation: 3s rotation linear infinite;;
-}
-.circle img{
-	width:50px;
-}
+
 /*===========animation==============*/
 .hvr-curl-top-left {
   display: inline-block;
