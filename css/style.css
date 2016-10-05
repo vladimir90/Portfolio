@@ -269,7 +269,7 @@ div{
 	padding: 0;
 	margin:0;
 	border-radius: 0;
-
+  box-shadow: 5px 5px 10px #000;
 
 
 
@@ -397,14 +397,7 @@ div{
 
 
 
-.s2-arrow{
-	
-	width:40px;
-	
-	margin:0 auto;
-	animation:1.5s pulse ease-in infinite;
-	-webkit-animation:1.5s pulse ease-in infinite;
-}
+
 
 
 
@@ -418,6 +411,7 @@ div{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #fff;
+
 }
 #section3 h1{
 	color:#FF5B39;
@@ -429,23 +423,51 @@ div{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	line-height: 35px;
-	text-align: justify;
+  text-align: center;
+	
+  
 }
 
 #section3 a{
 	text-decoration: none;
-	color:#FF5B39;
+	background-color:#FF5B39;
+  color:#fff;
+  padding: 5px 10px 5px 10px;
 	display: block;
-	width:50px;
-	margin:0 auto;
+	width:100px;
+	text-align: center;
 	
 
+}
+#section3 a:hover{
+  background-color:#FF8168;
 }
 #section3 h3{
 	text-align: center;
-	
+	color:#FF5B39;
 }
+.myedu{
+  border-top: 1px solid #F2F2F1;
 
+  padding-top: 150px;
+  
+}
+#section3 i{
+  color:#FF5B39;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  
+}
+.edu{
+  border-top: 1px solid #F2F2F1;
+  padding-top: 20px;
+  
+  
+}
+.edu p{
+  color:#777777;
+}
 
 
 
@@ -517,7 +539,12 @@ div{
   width:20px;
   margin:0 auto;
 }
-
+.arrow{
+  
+  
+  animation:1.5s pulse ease-in infinite;
+  -webkit-animation:1.5s pulse ease-in infinite;
+}
 
 
 /*================SECTION 4b=================*/
@@ -574,6 +601,12 @@ div{
 	text-align: center;
   padding-bottom: 50px;
 	
+}
+#section5 span{
+  color:#FF5B39;
+}
+#section5 i{
+  color:#333;
 }
 #section5 h4{
   padding-top: 20px;
@@ -660,7 +693,7 @@ div{
 ===================================================*/
 #section6{
 	padding-top: 50px;
-	background-color: #1d1d1d;
+	
 	padding-bottom: 20px;
 }
 #section6 h1{
