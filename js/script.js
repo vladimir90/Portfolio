@@ -31,18 +31,6 @@ $('#section4b').hide();
 
 
 
-$('.content-post').hide();
-
-  //$(document).scroll(function(){
-  $(document).on('scroll', function(){
-  //$(document).bind('scroll', function(){
-    if ($(this).scrollTop() > 25) {
-       console.log($(this).scrollTop());
-       $('.content-post').show('slow');
-    } else {
-       $('.content-post').hide();
-    }
-  });
 
 
 });
