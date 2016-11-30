@@ -625,10 +625,6 @@ div{
 }
 
 
-#section5 .box{
-  background-color: rgba(0,0,0,0.6);
-
-}
 
 #section5 h2{
   
@@ -664,6 +660,12 @@ div{
 }
 #section5 img{
   width:100px;
+}
+
+#section5 h5{
+  color:#fff;
+  font-size:22px;
+   font-family: "Lato Light",sans-serif;
 }
 
 
