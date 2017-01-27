@@ -14,16 +14,35 @@ h1,h2,h3,h4,h5,h6{
 	
 	font-family: "Lato",sans-serif;
 }
-
+h1{
+  font-size:50px;
+}
+h2{
+  font-size:42px;
+}
+h3{
+  font-size:38px;
+}
+h4{
+  font-size:34px;
+}
+h3{
+  font-size:30px;
+}
+h6{
+  font-size:26px;
+}
 p{
-	
-	font-family: "Crimson Text", serif;
+	font-size:18px;
+	font-family: "Lato",sans-serif;
+
 }
 
 a{
 	margin:0;
 	padding:0;
 	font-family: "Lato",sans-serif;
+  font-size:18px;
 }
 
 div{
@@ -389,46 +408,51 @@ div{
 
 }
 #section3 h1{
-	color:#FF5B39;
+	
 	text-align: center;
 	font-family: "Lato Light",sans-serif;
+  padding-bottom: 20px;
 }
 #section3 p{
 	font-size: 18px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	line-height: 35px;
-  
+  text-align: justify-all;
 	
   
 }
-
-#section3 a{
-	text-decoration: none;
-	background-color:#FF5B39;
-  color:#fff;
-  padding: 5px 10px 5px 10px;
-	display: block;
-	width:100px;
-	text-align: center;
-	
-
+.completed{
+  color:#023F88;
 }
-#section3 a:hover{
-  background-color:#FF8168;
+.uncompleted{
+  color:#ffb366;
 }
+#section3 h4{
+  padding-bottom: 30px;
+  
+}
+
 #section3 h3{
 	text-align: center;
-	color:#FF5B39;
+	line-height: 40px;
+  
+  padding-bottom: 30px;
+}
+#section3 h5{
+  font-weight:900;
 }
 .myedu{
   border-top: 1px solid #F2F2F1;
-
   padding-top: 150px;
   
 }
+#section3 img{
+  width:250px;
+  padding:20px;
+}
 #section3 i{
-  color:#FF5B39;
+   color:#023F88;
   
 
   
@@ -458,9 +482,10 @@ div{
 	padding-bottom: 50px;
 }
 #section4 h1{
+  padding-top: 100px;
 	color:#fff;
 	font-family: "Lato Light",sans-serif;
-	padding-top: 40px;
+	padding-bottom: 100px;
 }
 #section4 h4, #section4 p{
 	color:#fff;
@@ -470,7 +495,7 @@ div{
 
 }
 #section4 h4{
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 #section4 p{
 	
@@ -484,7 +509,7 @@ div{
 	border:1px solid #EFEFEF;
 	border-radius: 100px;
 	color:#FF5B39;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 #section4 span{
 	color:#FF5B39;
@@ -629,15 +654,15 @@ div{
 #section5 h2{
   
   font-family: "Lato",sans-serif;
-
+  color:#FF5B39;
 }
 
 #section5 h3{
 	color:#fff;
 	text-align: center;
   margin-bottom: 100px;
-  font-size: 26px;
-  font-family: "Lato Light",sans-serif;
+  font-size:24px;
+  font-family: "Lato",sans-serif;
 	
 }
 #section5 span{
@@ -657,15 +682,19 @@ div{
 }
 #section5 p{
   color:#fff;
+  font-family: "Lato Light",sans-serif;
+  padding-bottom: 30px;
 }
 #section5 img{
   width:100px;
 }
 
 #section5 h5{
+  padding-top: 20px;
+  padding-bottom: 20px;
   color:#fff;
-  font-size:22px;
-   font-family: "Lato Light",sans-serif;
+  font-size:24px;
+   font-family: "Lato",sans-serif;
 }
 
 
@@ -786,6 +815,7 @@ color:#1d1d1d;
 
 .copy h6{
   color:#fff;
+  font-size:14px;
 }
 .copy{
   background-color:#1d1d1d;

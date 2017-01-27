@@ -25,17 +25,11 @@ $('#section4b').hide();
 
     $('#section4b').slideToggle('slow');
 
+
   });
 
 
-
-
-
-
-
 });
-
-
 
 
 
